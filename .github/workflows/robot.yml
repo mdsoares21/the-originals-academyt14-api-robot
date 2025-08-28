@@ -43,7 +43,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: https://mdsoares21.github.io/THE-ORIGINALS-AcademyT14-API-Robott # Substitua pelo seu usuário e repositório
+      url: https://mdsoares21.github.io/THE-ORIGINALS-AcademyT14-API-Robot # Substitua pelo seu usuário e repositório
       
     steps:
       - name: Setup pages
