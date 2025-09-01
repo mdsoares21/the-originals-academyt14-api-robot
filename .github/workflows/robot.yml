@@ -23,6 +23,7 @@ jobs:
       - name: Executando os testes de API Robot Framework
         run: |
           robot --outputdir logs/ .
+          mv logs/report.html logs/index.html
 
       - name: Test Report
         uses: actions/upload-artifact@v4  
